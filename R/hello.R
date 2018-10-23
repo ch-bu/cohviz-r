@@ -12,7 +12,18 @@
 #   Build and Reload Package:  'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
+#   Reload Package:            'Ctrl + Shift + L'
 
+#' Illustration of crayon colors
+#' @export
 hello <- function() {
-  print("Hello, world!")
+  print("Hello, worlds!")
+}
+
+test <- function() {
+  paste("A test with", hello())
+}
+
+sum_numbers <- function() {
+  4 + 5
 }

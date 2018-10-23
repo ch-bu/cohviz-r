@@ -1,11 +1,18 @@
 Package: cohviz
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A set of tools for instructional feedback on text cohesion
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: person("Christian", "Burkhart", 
+               email = "burkhart.christian@gmail.com",
+               role = c("auth", "cre"))
+Maintainer: The package maintainer <burkhart.christian@gmail.com>
+Description: CohViz is a set of tools that allows researchers and
+    teachers to provide novice writers with instructional
+    feedback on text cohesion.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports:
+  dplyr (>= 0.7.0),
+  emmeans
+RoxygenNote: 6.1.0

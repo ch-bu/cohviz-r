@@ -1,16 +1,26 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
 # Cohviz
 
-The goal of cohviz is to provide researchers and teachers with a set of
-instructional feedback tools on text cohesion.
+The goal of cohviz is to provide researchers and  teachers with a set of instructional feedback tools on text cohesion.
 
 ## Installation
 
 You can install cohviz from github with:
 
-``` r
+```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("ch-bu/cohviz-r")
 ```
@@ -19,6 +29,6 @@ devtools::install_github("ch-bu/cohviz-r")
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r example}
 ## basic example code
 ```
